@@ -1,0 +1,6 @@
+# Copy to ~/.config/ke100-schedule/config.toml (or set environment variables instead).
+# Never commit a file that contains real credentials.
+
+host = "192.0.2.10"
+username = "your-tapo-username"
+# password = "your-tapo-password"

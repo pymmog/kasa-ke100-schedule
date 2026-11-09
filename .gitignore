@@ -1,0 +1,35 @@
+# Local credentials and schedules
+.env
+.env.*
+!.env.example
+config.toml
+**/config.toml
+~/.config/ke100-schedule/config.toml
+
+# User schedule dumps
+schedules.json
+**/schedules.json
+*.schedule.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+
+# Test / tooling
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# IDE
+.idea/
+.vscode/
+*.swp
